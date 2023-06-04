@@ -1,0 +1,61 @@
+body {
+  background: rosybrown;
+  margin: 1rem;
+  padding: 1rem;
+  max-width: 500px;
+  margin: 2rem auto;
+  font-family: "Open Sans", sans-serif;
+  font-style: italic;
+}
+
+nav {
+	border-bottom: 2px solid ;
+}
+
+ol {
+	padding-left: 0;
+}
+
+.crumb {
+	margin-right: 2em;
+	display: inline;
+}
+
+a {
+	color: orange;
+}
+
+a:visited {
+	color: green;
+	position: relative;
+	left: 20%;
+}
+
+
+input {
+	display: block;
+}
+
+img {
+	max-width: 300px;
+	position: relative;
+	left: 20%;
+}
+
+.favorite-button {
+	font-size: 12px;
+	padding: 10px 20px;
+	background-color: skyblue;
+	color: black;
+	border: gray;
+	border-radius: 12px;
+	cursor: pointer;
+}
+
+.container {
+	background-image: url(https://cdn.pixabay.com/photo/2019/04/14/20/05/duck-meet-4127713_1280.jpg);
+	background-repeat: no-repeat;
+	background-position:  right center ;
+	background-size: cover ;
+	padding: 20px;
+}
